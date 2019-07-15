@@ -52,6 +52,7 @@ Usage: oq [--help] [oq-arguments] [jq-arguments] jq_filter [file [files...]]
     -i FORMAT, --input FORMAT       Format of the input data. Supported formats: json, yaml.
     -o FORMAT, --output FORMAT      Format of the output data. Supported formats: json, yaml, xml.
     --xml-root ROOT                 Name of the root XML element if converting to XML.
+    --indent NUMBER                 Use the given number of spaces for indentation (JSON/XML only).
 ```
 
 ### Serialization
